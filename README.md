@@ -3,6 +3,8 @@
 This repository contains the code for predicting the likelihood of developing hepatitis based on various health indicators. The model uses machine learning techniques to analyze historical patient data and predict potential outcomes.
 
 You can visit the deployed project at:- [Link](https://hepatitis-prediction-app.streamlit.app/).
+
+![Screenshot of the project](.streamlit/image.png)
 # Installation/Usage
 To use the Hepatitis Prediction model, follow these steps:
 - Clone the repository to your local machine.
