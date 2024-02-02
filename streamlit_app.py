@@ -50,7 +50,7 @@ def get_user_input():
     return features
 
 user_input = get_user_input()
-
+st.header("Hepatitis Prediction")
 st.subheader('User Input:')
 st.write(user_input)
 
@@ -62,7 +62,7 @@ if prediction[0]==1:
 else:
     st.write('The patient is hepatitis negative')
 
-st.title("Attributes Description")
+st.subheader("Attributes Description")
 st.text("Age: The patient's chronological age.")
 st.text("Sex: The patient's gender(0 - Male & 1 - Female).")
 st.text("Steroid: The presence of steroid hormones in the blood.")
